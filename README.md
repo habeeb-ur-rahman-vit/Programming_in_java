@@ -1,53 +1,55 @@
 # Programming_in_java
-Task Manager Pro
+#Task Manager Pro
 
 A simple Java console application to manage users and tasks.
 
-Overview
+#Overview
 
 Task Manager Pro allows users to register, login, create, view, update, and delete tasks. Users can also generate simple task reports and export them as text files. The project uses a file-based storage system, making it lightweight and easy to run without database setup.
 
-Features
+#Features
 
-User registration and login
+1.User registration and login
 
-Task creation, viewing, status update, deletion
+2.Task creation, viewing, status update, deletion
 
-Reporting: summary of tasks per user
+3.Reporting: summary of tasks per user
 
-Export reports to text files
+4.Export reports to text files
 
-Clear input/output console interface
+5.Clear input/output console interface
 
-Technologies/Tools Used
+#Technologies/Tools Used
 
-Java (version 8+)
+1.Java (version 8+)
 
-File I/O for data persistence
+2.File I/O for data persistence
 
-ArrayList for data management
+3.ArrayList for data management
 
-Modular structure with packages for model, service, utils, storage, and UI
+4.Modular structure with packages for model, service, utils, storage, and UI
 
-Steps to Install & Run
+#Steps to Install & Run
 
-Ensure Java 8+ is installed.
+1.Ensure Java 8+ is installed.
 
-Open terminal in the project root folder.
+2.Open terminal in the project root folder.
 
-Compile the project:
+3.Compile the project:
 
 javac -d out src/com/taskmanager/*.java src/com/taskmanager/model/*.java src/com/taskmanager/service/*.java src/com/taskmanager/storage/*.java src/com/taskmanager/ui/*.java src/com/taskmanager/utils/*.java src/com/taskmanager/tests/*.java
 
-Run the main program:
+4.Run the main program:
 
 java -cp out com.taskmanager.Main
-Instructions for Testing
 
-A simple test class is included at src/com/taskmanager/tests/TestTaskService.java.
+#Instructions for Testing
 
-Run the test:
+1.A simple test class is included at 
+src/com/taskmanager/tests/TestTaskService.java.
+
+2.Run the test:
 
 java -cp out com.taskmanager.tests.TestTaskService
 
-Manual testing can also be done via the console menus.
+3.Manual testing can also be done via the console menus.
